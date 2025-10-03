@@ -1,0 +1,45 @@
+- ## Core Mechanics and Experience
+- ### The Stone Stacking
+  This is the main interaction, and it needs to feel **satisfying and precise**.  
+- **Poking/Touching (Poke):** This mechanic could be used for subtle adjustments, perhaps to gently nudge a stone already placed without fully grabbing it, or to select a stone from the ground (making it "float" a bit before the grip).
+- **Grasping/Grabbing (Grab):** The core action for lifting and placing stones. Since the goal is relaxation, ensure:
+	- **Smooth Haptics:** When a stone is grabbed and released, the controller vibration should be subtle and pleasant, not jarring.
+	- **Stable Placement:** Consider using a gentle **magnetic "snap"** or subtle alignment assistance when a stone is close to a stable position. This reduces frustration and keeps the focus on flow and balance, not tedious pixel-perfect aiming.
+	- **Variety of Stones:** Offer stones of different shapes, sizes, and weights. Some might be perfectly flat and easy; others rounder and more challenging (but more rewarding to balance).
+- ### The Environment: Zen Mountain
+- **Visuals:** Focus on soft, natural lighting (dawn, dusk, or a gentle midday). Include elements like a distant **waterfall**, mist or fog, and wind subtly moving leaves on nearby **Japanese maple** or **pine trees**.
+- **Sound:** The **zen music** should be low and ambient. Complement it with realistic, subtle environmental sounds:
+	- The gentle **lapping of water** from a nearby stream or pond.
+	- Subtle **wind chimes** that ring softly with the simulated breeze.
+	- The satisfying, low **'thunk'** or **'clink'** when stones are successfully stacked.
+	    
+---
+- ## Game Modes and Progression
+- ### 1. Free Flow (The Sand Garden)
+- **Concept:** Unlimited time and stones. The player simply enjoys the act of stacking.
+- **Goal:** Pure relaxation and creative expression. Players can create intricate **cairns** (stacked stone structures) without pressure.
+- ### 2. Guided Meditation (Challenges)
+- **Concept:** Present the player with a small challenge or a shape to emulate.
+- **Example Challenges:**
+	- "Build a cairn with at least **five stones** that leans slightly to the left."
+	- "Stack stones to reach a specific **highlighted height** mark."
+	- "Build a structure using only the three smallest stones and the largest base stone."
+- **Goal:** Gently guide the player's focus, turning the stone stacking into a form of **mindfulness exercise**.
+- ### 3. Time/Focus Mode
+- **Concept:** A self-imposed timer is visible (or an external **singing bowl** starts), and the player tries to stack as many stones as possible until the sound fades.
+- **Goal:** To encourage intense focus and block out external thoughts. The "score" isn't a competitive one, but a personal measure of focus.
+- ## Style of the art / design
+- **Low poly style** - takes less time to make / design and looks good
+  logseq.order-list-type:: number
+	- ### 1. Minimal Modeling Time
+	- **Low Polygon Count:** You're intentionally using very few polygons, so objects like stones, trees, and mountains are created with a minimal number of faces. A large, complex rock might take only 10-20 minutes to model, whereas a realistic one could take hours.
+		- **The Stones:** Stones can be simple, angular shapes. The focus is on their physical dimensions (width, height, weight properties), not hyper-realistic texture details.
+	- **Simple Geometry:** The overall mountain environment is built from broad, simple shapes (e.g., a mountain is a large, faceted cone, trees are simple cylinders with bushy tops).
+	- ### 2. Zero Texturing Time
+	- **Flat Shading:** Instead of unwrapping every model and painting detailed textures (like bark, moss, or dirt), you simply assign a **single color** to each face or element.
+		- The stone is Stone Grey.
+		- The moss on the stone is Deep Green.
+		- The water is Clear Blue.
+	- **Color Palette:**limited color palette (soft greens, muted blues, pale greys, warm browns). The colors themselves convey the **zen** feeling, not the texture detail.
+	- ### 3. Great VR Performance
+	- **Low Computational Cost:** VR requires rendering two separate images (one for each eye) at a high frame rate (usually 72-90 FPS) to prevent motion sickness. Low-poly models and the absence of complex textures drastically reduce the burden on the VR headset's processor, making it easier to hit those target frame rates.
